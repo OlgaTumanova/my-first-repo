@@ -1,0 +1,9 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5e55677b9c71952b9618b092
+type: experiment
+name: enable portal ekm
+flag: EnablePortalEKM
+availableValues:
+  - 'False'
+  - 'True'
+value: []
