@@ -8,6 +8,6 @@ conditions:
       name: Application
       operator: in-array
       operand:
-        - onetest
+        - WebApp
     value: true
 value: false
