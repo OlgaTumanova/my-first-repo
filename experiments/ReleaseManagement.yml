@@ -5,8 +5,8 @@ name: release management
 flag: ReleaseManagement
 conditions:
   - property:
-      name: Site
+      name: ApplicationGroup
       operator: in-array
       operand:
-        - QA2
+        - Tests
 value: true
