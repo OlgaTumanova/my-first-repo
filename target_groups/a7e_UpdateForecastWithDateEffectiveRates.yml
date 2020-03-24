@@ -1,0 +1,12 @@
+type: target-group
+name: a7e_UpdateForecastWithDateEffectiveRates
+conditions:
+  - operator: in-array
+    property: OrgId
+    operand:
+      - '35561'
+      - '302430'
+      - '350537'
+      - '594451'
+      - '657811'
+      - '769789'
