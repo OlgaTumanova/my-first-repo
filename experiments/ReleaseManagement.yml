@@ -4,5 +4,5 @@ type: experiment
 name: release management
 flag: ReleaseManagement
 conditions:
-  - value: true
+  - {}
 value: true
