@@ -9,4 +9,4 @@ conditions:
       operator: in-array
       operand:
         - onetest
-value: true
+value: false
