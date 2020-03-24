@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5e569e77462b094df1e86067
+type: experiment
+name: enable identification cookies
+flag: EnableIdentificationCookies
+value: false
