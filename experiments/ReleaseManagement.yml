@@ -5,8 +5,8 @@ name: release management
 flag: ReleaseManagement
 conditions:
   - property:
-      name: User
+      name: Partition
       operator: in-array
       operand:
-        - '1846140'
+        - App01
 value: true
