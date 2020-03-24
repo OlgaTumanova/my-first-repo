@@ -9,5 +9,4 @@ conditions:
       operator: in-array
       operand:
         - WebApp
-    value: true
-value: false
+value: true
