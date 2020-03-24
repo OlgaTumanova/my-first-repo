@@ -1,0 +1,23 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5e500aacb00e0c82b1e6fea1
+type: experiment
+name: title colors
+flag: titleColors
+availableValues:
+  - Red
+  - White
+  - Black
+conditions:
+  - property:
+      name: Env
+      operator: in-array
+      operand:
+        - PROD1
+    value: Black
+  - property:
+      name: Env
+      operator: in-array
+      operand:
+        - PROD
+    value: White
+value: Red
