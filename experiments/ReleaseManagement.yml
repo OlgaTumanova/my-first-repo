@@ -8,5 +8,5 @@ conditions:
       name: Version
       operator: in-array
       operand:
-        - '20.04'
+        - '20'
 value: true
