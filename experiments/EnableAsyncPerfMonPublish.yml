@@ -1,0 +1,13 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5e5422eec2aec1df515695cf
+type: experiment
+name: enable async perf mon publish
+flag: EnableAsyncPerfMonPublish
+conditions:
+  - property:
+      name: Env
+      operator: in-array
+      operand:
+        - Local
+    value: true
+value: true
