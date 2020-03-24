@@ -4,5 +4,9 @@ type: experiment
 name: release management
 flag: ReleaseManagement
 conditions:
-  - {}
+  - property:
+      name: Application
+      operator: in-array
+      operand:
+        - WebApp
 value: true
