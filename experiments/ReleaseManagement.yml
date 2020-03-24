@@ -9,4 +9,5 @@ conditions:
       operator: in-array
       operand:
         - Tests
+    value: true
 value: true
