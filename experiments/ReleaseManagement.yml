@@ -9,4 +9,5 @@ conditions:
       operator: in-array
       operand:
         - 969d4a8c-65d0-492b-8829-0027e33b51fc_645561 1846140
+    value: true
 value: true
