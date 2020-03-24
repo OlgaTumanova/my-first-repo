@@ -1,0 +1,8 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5e563818a8a99b78d076b8cd
+type: experiment
+name: enable right click context menu
+flag: EnableRightClickContextMenu
+availableValues:
+  - 'null'
+value: []
