@@ -4,4 +4,5 @@ conditions:
   - operator: in-array
     property: OrgId
     operand:
-      - '800536'
+      - '204483'
+      - '645561'
