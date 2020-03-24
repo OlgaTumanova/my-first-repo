@@ -1,0 +1,9 @@
+type: target-group
+name: a7e_TraceActivateFromCompleted
+conditions:
+  - operator: in-array
+    property: OrgId
+    operand:
+      - '464323'
+      - '594451'
+      - '769789'
