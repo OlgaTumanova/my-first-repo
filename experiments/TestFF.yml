@@ -1,0 +1,10 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5e68fc1fb979213cda4b1814
+type: experiment
+name: TestExperiment2
+flag: TestFF
+conditions:
+  - group:
+      name: TestFF.SetValue3
+    value: true
+value: false
