@@ -5,9 +5,9 @@ name: release management
 flag: ReleaseManagement
 conditions:
   - property:
-      name: Application
+      name: Env
       operator: in-array
       operand:
-        - WebApp
+        - QA
     value: true
 value: true
