@@ -1,0 +1,8 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5e74ab0db90ca063a14e0f98
+type: experiment
+name: release management
+flag: ReleaseManagement
+conditions:
+  - {}
+value: true
