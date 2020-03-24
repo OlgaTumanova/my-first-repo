@@ -1,0 +1,13 @@
+type: target-group
+name: a7e_EnableEmploymentHistory
+conditions:
+  - operator: in-array
+    property: OrgId
+    operand:
+      - '350537'
+      - '464558'
+      - '594451'
+      - '635430'
+      - '657811'
+      - '664463'
+      - '779129'
