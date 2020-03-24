@@ -5,8 +5,8 @@ name: release management
 flag: ReleaseManagement
 conditions:
   - property:
-      name: Version
+      name: MachineName
       operator: in-array
       operand:
-        - '20'
+        - QAAPP02
 value: true
