@@ -4,6 +4,9 @@ type: experiment
 name: release management
 flag: ReleaseManagement
 conditions:
-  - group:
-      name: Maria_test
+  - property:
+      name: User
+      operator: in-array
+      operand:
+        - '1846140'
 value: true
