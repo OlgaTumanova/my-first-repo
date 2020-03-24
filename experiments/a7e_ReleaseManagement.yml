@@ -1,0 +1,7 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5e74a3479ad6be519584f9d7
+type: experiment
+name: a 7 e release management
+enabled: false
+flag: a7e_ReleaseManagement
+value: true
