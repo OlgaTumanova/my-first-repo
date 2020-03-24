@@ -1,0 +1,9 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5e77d3d3534cb66c94016dc1
+type: experiment
+name: api calls throttling requests per second
+labels: archived
+flag: ApiCallsThrottlingRequestsPerSecond
+availableValues:
+  - '0'
+value: []
