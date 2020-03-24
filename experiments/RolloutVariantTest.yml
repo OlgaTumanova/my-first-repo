@@ -1,0 +1,8 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5e5009abb00e0cace7e6fe93
+type: experiment
+name: rollout variant test
+flag: RolloutVariantTest
+availableValues:
+  - 'null'
+value: []
