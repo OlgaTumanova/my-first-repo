@@ -1,0 +1,12 @@
+type: target-group
+name: Maria_test
+conditions:
+  - operator: in-array
+    property: Env
+    operand:
+      - QA
+  - operator: in-array
+    property: Application
+    operand:
+      - WebApp
+      - WebApp111
