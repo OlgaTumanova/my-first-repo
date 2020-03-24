@@ -5,8 +5,8 @@ name: release management
 flag: ReleaseManagement
 conditions:
   - property:
-      name: ApplicationGroup
+      name: Version
       operator: in-array
       operand:
-        - Tests
+        - '20.04'
 value: true
