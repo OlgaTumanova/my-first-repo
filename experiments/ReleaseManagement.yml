@@ -4,9 +4,6 @@ type: experiment
 name: release management
 flag: ReleaseManagement
 conditions:
-  - property:
-      name: User
-      operator: in-array
-      operand:
-        - 969d4a8c-65d0-492b-8829-0027e33b51fc_645561 1846140
+  - group:
+      name: Maria_test
 value: true
