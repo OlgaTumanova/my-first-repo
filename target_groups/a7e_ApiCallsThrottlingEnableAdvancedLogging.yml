@@ -1,0 +1,9 @@
+type: target-group
+name: a7e_ApiCallsThrottlingEnableAdvancedLogging
+conditions:
+  - operator: in-array
+    property: OrgId
+    operand:
+      - '24359'
+      - '645561'
+      - '783469'
