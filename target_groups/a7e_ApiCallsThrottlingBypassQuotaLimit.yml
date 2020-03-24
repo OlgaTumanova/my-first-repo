@@ -1,0 +1,10 @@
+type: target-group
+name: a7e_ApiCallsThrottlingBypassQuotaLimit
+conditions:
+  - operator: in-array
+    property: OrgId
+    operand:
+      - '4672'
+      - '24359'
+      - '645561'
+      - '783469'
