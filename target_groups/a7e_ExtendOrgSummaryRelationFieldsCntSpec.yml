@@ -4,9 +4,6 @@ conditions:
   - operator: in-array
     property: OrgId
     operand:
-      - '21'
-      - '24359'
-      - '769375'
-      - '769673'
-      - '769739'
-      - '783469'
+      - '204483'
+      - '769169'
+      - '769429'
