@@ -1,0 +1,13 @@
+type: target-group
+name: SummaryFieldCalculateJobDecisionLog
+conditions:
+  - operator: in-array
+    property: OrgId
+    operand:
+      - '204483'
+      - '464558'
+      - '594451'
+      - '645561'
+      - '769169'
+      - '769429'
+      - '769789'
