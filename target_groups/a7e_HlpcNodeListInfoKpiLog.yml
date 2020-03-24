@@ -1,0 +1,13 @@
+type: target-group
+name: a7e_HlpcNodeListInfoKpiLog
+conditions:
+  - operator: in-array
+    property: OrgId
+    operand:
+      - '24359'
+      - '302230'
+      - '769149'
+      - '769257'
+      - '769391'
+      - '769411'
+      - '783469'
