@@ -6,5 +6,4 @@ flag: ReleaseManagement
 conditions:
   - group:
       name: Maria_test
-    value: true
 value: true
