@@ -8,5 +8,5 @@ conditions:
       name: Env
       operator: in-array
       operand:
-        - QA2
+        - QA
 value: true
