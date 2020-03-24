@@ -1,0 +1,7 @@
+type: target-group
+name: ResourceManagementSizeTreshold
+conditions:
+  - operator: in-array
+    property: OrgId
+    operand:
+      - '4672'
