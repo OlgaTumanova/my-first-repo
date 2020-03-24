@@ -1,0 +1,9 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5e690a278f724102a3a14535
+type: experiment
+flag: TestFF1
+conditions:
+  - group:
+      name: Local_FeatureFlagsTests_Tests_ODP1208003
+    value: true
+value: false
