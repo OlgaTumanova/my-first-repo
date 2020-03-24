@@ -9,4 +9,5 @@ conditions:
       operator: in-array
       operand:
         - App01
+    value: true
 value: true
