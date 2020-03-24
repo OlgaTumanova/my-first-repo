@@ -1,0 +1,10 @@
+type: target-group
+name: PreloadActionClobs
+conditions:
+  - operator: in-array
+    property: OrgId
+    operand:
+      - '24359'
+      - '612902'
+      - '613904'
+      - '783469'
