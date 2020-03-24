@@ -1,0 +1,9 @@
+type: target-group
+name: a7e_EnableGridRowNumberColumn
+conditions:
+  - operator: in-array
+    property: OrgId
+    operand:
+      - '350537'
+      - '423317'
+      - '722862'
