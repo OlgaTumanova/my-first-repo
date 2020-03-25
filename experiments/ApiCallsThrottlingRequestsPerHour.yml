@@ -8,4 +8,8 @@ availableValues:
   - '2'
   - '5'
   - '100'
-value: '2'
+conditions:
+  - group:
+      name: ApiCallsThrottlingRequestsPerHour
+    value: '5'
+value: '100'
