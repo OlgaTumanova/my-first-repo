@@ -4,9 +4,5 @@ type: experiment
 name: release management
 flag: ReleaseManagement
 conditions:
-  - property:
-      name: Partition
-      operator: in-array
-      operand:
-        - App01
+  - {}
 value: true
