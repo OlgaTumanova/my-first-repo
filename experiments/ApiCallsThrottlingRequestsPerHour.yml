@@ -4,5 +4,6 @@ type: experiment
 name: api calls throttling requests per hour
 flag: ApiCallsThrottlingRequestsPerHour
 availableValues:
-  - '0'
+  - '2'
+  - '10'
 value: []
