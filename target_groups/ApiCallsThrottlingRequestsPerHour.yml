@@ -2,7 +2,6 @@ type: target-group
 name: ApiCallsThrottlingRequestsPerHour
 conditions:
   - operator: in-array
-    property: OrgId
+    property: Env
     operand:
-      - '24359'
-      - '783469'
+      - QA
