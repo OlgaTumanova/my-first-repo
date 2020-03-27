@@ -6,4 +6,8 @@ flag: ApiCallsThrottlingRequestsPerMinute
 availableValues:
   - '7'
   - '2'
-value: []
+conditions:
+  - group:
+      name: ApiCallsThrottlingRequestsPerMinute
+    value: '7'
+value: '2'
