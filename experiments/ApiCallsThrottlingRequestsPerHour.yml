@@ -2,6 +2,7 @@
 # URL: https://app.rollout.io/ex/5e7b6d33bac52df5c6f1afe7
 type: experiment
 name: api calls throttling requests per hour
+enabled: false
 flag: ApiCallsThrottlingRequestsPerHour
 availableValues:
   - '10'
