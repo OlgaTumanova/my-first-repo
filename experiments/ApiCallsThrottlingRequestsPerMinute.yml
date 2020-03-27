@@ -9,7 +9,8 @@ availableValues:
 conditions:
   - property:
       name: User
-      operator: ne
-      operand: '1846140'
+      operator: in-array
+      operand:
+        - '1846140'
     value: '7'
 value: '2'
