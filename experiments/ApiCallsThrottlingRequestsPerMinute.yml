@@ -7,7 +7,9 @@ availableValues:
   - '7'
   - '2'
 conditions:
-  - group:
-      name: ApiCallsThrottlingRequestsPerMinute
+  - property:
+      name: User
+      operator: ne
+      operand: '1846140'
     value: '7'
 value: '2'
