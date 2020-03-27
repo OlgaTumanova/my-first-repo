@@ -5,4 +5,5 @@ name: api calls throttling requests per minute
 flag: ApiCallsThrottlingRequestsPerMinute
 availableValues:
   - '7'
+  - '2'
 value: []
