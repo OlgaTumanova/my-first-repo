@@ -9,5 +9,4 @@ conditions:
       operator: in-array
       operand:
         - '1'
-    value: true
 value: false
