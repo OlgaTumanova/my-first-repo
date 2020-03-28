@@ -5,7 +5,7 @@ name: release management
 flag: ReleaseManagement
 conditions:
   - property:
-      name: Org
+      name: OrgId
       operator: in-array
       operand:
         - '1'
