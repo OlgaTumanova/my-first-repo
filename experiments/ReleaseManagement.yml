@@ -3,4 +3,4 @@
 type: experiment
 name: release management
 flag: ReleaseManagement
-value: false
+value: true
