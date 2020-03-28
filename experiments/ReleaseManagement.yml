@@ -3,4 +3,11 @@
 type: experiment
 name: release management
 flag: ReleaseManagement
+conditions:
+  - property:
+      name: Org
+      operator: in-array
+      operand:
+        - '1'
+    value: true
 value: false
