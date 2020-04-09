@@ -8,6 +8,6 @@ conditions:
       name: OrgId
       operator: in-array
       operand:
-        - '645561'
+        - '612902'
     value: false
 value: true
