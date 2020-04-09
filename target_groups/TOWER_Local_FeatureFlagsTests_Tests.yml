@@ -1,0 +1,19 @@
+type: target-group
+name: TOWER_Local_FeatureFlagsTests_Tests
+conditions:
+  - operator: in-array
+    property: MachineName
+    operand:
+      - TOWER
+  - operator: in-array
+    property: Env
+    operand:
+      - Local
+  - operator: in-array
+    property: Application
+    operand:
+      - FeatureFlagsTests
+  - operator: in-array
+    property: ApplicationGroup
+    operand:
+      - Tests
