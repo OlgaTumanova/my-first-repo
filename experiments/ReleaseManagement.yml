@@ -5,9 +5,9 @@ name: release management
 flag: ReleaseManagement
 conditions:
   - property:
-      name: OrgId
+      name: Env
       operator: in-array
       operand:
-        - '612902'
-    value: true
+        - qa
+    value: false
 value: true
