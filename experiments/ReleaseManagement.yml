@@ -9,5 +9,5 @@ conditions:
       operator: in-array
       operand:
         - '612902'
-    value: true
+    value: false
 value: true
