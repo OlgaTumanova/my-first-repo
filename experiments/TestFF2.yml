@@ -4,6 +4,6 @@ type: experiment
 flag: TestFF2
 conditions:
   - group:
-      name: Local_FeatureFlagsTests_Tests_ODP1208003
+      name: TOWER_Local_FeatureFlagsTests_Tests
     value: true
 value: false
