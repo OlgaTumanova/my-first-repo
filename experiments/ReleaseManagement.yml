@@ -4,5 +4,10 @@ type: experiment
 name: release management
 flag: ReleaseManagement
 conditions:
-  - {}
+  - property:
+      name: OrgId
+      operator: in-array
+      operand:
+        - '645561'
+    value: false
 value: true
