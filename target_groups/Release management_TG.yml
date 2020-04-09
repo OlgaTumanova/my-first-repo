@@ -2,6 +2,6 @@ type: target-group
 name: Release management_TG
 conditions:
   - operator: in-array
-    property: Env
+    property: OrgId
     operand:
-      - Local
+      - '612902'
