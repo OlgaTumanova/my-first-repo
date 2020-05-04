@@ -1,0 +1,8 @@
+type: target-group
+name: a7e_OptimizeSummaryFieldsByClassCustomized
+conditions:
+  - operator: in-array
+    property: OrgId
+    operand:
+      - '594451'
+      - '769789'
