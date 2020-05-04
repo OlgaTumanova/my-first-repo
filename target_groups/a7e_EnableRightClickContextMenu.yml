@@ -1,0 +1,8 @@
+type: target-group
+name: a7e_EnableRightClickContextMenu
+conditions:
+  - operator: in-array
+    property: OrgId
+    operand:
+      - '722862'
+      - '794501'
