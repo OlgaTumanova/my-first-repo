@@ -1,0 +1,9 @@
+type: target-group
+name: a7e_CalculateWIFinPlanningFields
+conditions:
+  - operator: in-array
+    property: OrgId
+    operand:
+      - '28929'
+      - '587165'
+      - '769171'
