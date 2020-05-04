@@ -1,0 +1,10 @@
+type: target-group
+name: a7e_ReportACLJoinOptimization
+conditions:
+  - operator: in-array
+    property: OrgId
+    operand:
+      - '19278'
+      - '33980'
+      - '464558'
+      - '769412'
