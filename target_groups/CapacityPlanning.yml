@@ -1,0 +1,13 @@
+type: target-group
+name: CapacityPlanning
+conditions:
+  - operator: in-array
+    property: OrgId
+    operand:
+      - '103636'
+      - '195918'
+      - '216762'
+      - '645561'
+      - '785871'
+      - '785872'
+      - '787131'
