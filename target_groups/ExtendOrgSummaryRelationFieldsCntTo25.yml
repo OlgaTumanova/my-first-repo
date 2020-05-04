@@ -1,0 +1,13 @@
+type: target-group
+name: ExtendOrgSummaryRelationFieldsCntTo25
+conditions:
+  - operator: in-array
+    property: OrgId
+    operand:
+      - '28929'
+      - '204483'
+      - '294030'
+      - '302571'
+      - '769169'
+      - '769171'
+      - '769429'
