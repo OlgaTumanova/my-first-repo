@@ -1,0 +1,14 @@
+type: target-group
+name: CustomFieldsMore500
+conditions:
+  - operator: in-array
+    property: OrgId
+    operand:
+      - '73783'
+      - '103636'
+      - '195918'
+      - '203664'
+      - '304768'
+      - '785871'
+      - '785872'
+      - '787131'
