@@ -1,0 +1,11 @@
+type: target-group
+name: FormulaMassObjectUpdaterExtendedProfiling
+conditions:
+  - operator: in-array
+    property: OrgId
+    operand:
+      - '204483'
+      - '645561'
+      - '722862'
+      - '769169'
+      - '769429'
