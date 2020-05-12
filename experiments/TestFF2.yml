@@ -4,6 +4,6 @@ type: experiment
 flag: TestFF2
 conditions:
   - group:
-      name: TOWER_Local_FeatureFlagsTests_Tests
+      name: local_FeatureFlagsTests_Tests_CLAR-W10-VM1
     value: true
 value: false
